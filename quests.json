@@ -1,0 +1,791 @@
+[  
+    {
+        "C++": [
+
+            {
+                "title": "What is the purpose of the 'iostream' library in C++?",
+                "answers": {
+                    "answer_0": "To perform file input and output operations.",
+                    "answer_1": "To manipulate strings and text.",
+                    "answer_2": "To handle mathematical calculations.",
+                    "answer_3": "To create graphical user interfaces."
+                },
+                "right_answer": "To perform file input and output operations."
+            },
+            {
+                "title": "What is the correct syntax to declare a variable in C++?",
+                "answers": {
+                    "answer_0": "variableName;",
+                    "answer_1": "int variableName;",
+                    "answer_2": "VariableName;",
+                    "answer_3": "INT variableName;"
+                },
+                "right_answer": "variableName;"
+            },
+            {
+                "title": "Which loop construct in C++ is suitable for situations where the loop body needs to be executed at least once?",
+                "answers": {
+                    "answer_0": "while loop",
+                    "answer_1": "for loop",
+                    "answer_2": "do-while loop",
+                    "answer_3": "switch statement"
+                },
+                "right_answer": "do-while loop"
+            },
+            {
+                "title": "How do you define a constant variable in C++?",
+                "answers": {
+                    "answer_0": "const variableType variableName;",
+                    "answer_1": "final variableType variableName;",
+                    "answer_2": "constant variableType variableName;",
+                    "answer_3": "constexpr variableType variableName;"
+                },
+                "right_answer": "const variableType variableName;"
+            },
+            {
+                "title": "What is the correct way to dynamically allocate memory for a single variable in C++?",
+                "answers": {
+                    "answer_0": "new variableType variableName;",
+                    "answer_1": "variableType variableName = new;",
+                    "answer_2": "variableType* variableName = new variableType;",
+                    "answer_3": "variableType* variableName = new;"
+                },
+                "right_answer": "variableType* variableName = new variableType;"
+            },
+            {
+                "title": "Which keyword is used to inherit a class from another class in C++?",
+                "answers": {
+                    "answer_0": "inherit",
+                    "answer_1": "extends",
+                    "answer_2": "subclass",
+                    "answer_3": "class"
+                },
+                "right_answer": "class"
+            },
+            {
+                "title": "What is the purpose of the 'break' statement in C++?",
+                "answers": {
+                    "answer_0": "To terminate the program.",
+                    "answer_1": "To exit a loop or switch statement.",
+                    "answer_2": "To skip the current iteration of a loop.",
+                    "answer_3": "To pause the execution of the program temporarily."
+                },
+                "right_answer": "To exit a loop or switch statement."
+            },
+            {
+                "title": "WWhat is the correct way to access the 'length' member function of a string object in C++?",
+                "answers": {
+                    "answer_0": "string.length();",
+                    "answer_1": "length.string();",
+                    "answer_2": "string->length();",
+                    "answer_3": " length->string();"
+                },
+                "right_answer": "string.length();"
+            },
+            {
+                "title": "How do you close a file in C++ after performing file operations?",
+                "answers": {
+                    "answer_0": "close(file);",
+                    "answer_1": "fclose(file);",
+                    "answer_2": "file.close();",
+                    "answer_3": "fclose(file);"
+                },
+                "right_answer": "file.close();"
+            },
+            {
+                "title": "What is the purpose of the 'friend' keyword in C++?",
+                "answers": {
+                    "answer_0": "To define a function that can access private members of a class.",
+                    "answer_1": "To specify a function as a constructor for a class.",
+                    "answer_2": "o declare a function as a member of a class.",
+                    "answer_3": "To indicate that a class is derived from another class."
+                },
+                "right_answer": "To define a function that can access private members of a class."
+            },
+            {
+                "title": "Which data structure in C++ provides a first-in, first-out (FIFO) behavior?",
+                "answers": {
+                    "answer_0": "Stack",
+                    "answer_1": "Queue",
+                    "answer_2": "Array",
+                    "answer_3": "Linked list"
+                },
+                "right_answer": "Queue"
+            },
+            {
+                "title": "What is the correct way to declare and define a member function of a class outside the class definition in C++?",
+                "answers": {
+                    "answer_0": "void className::functionName()",
+                    "answer_1": "void functionName::className()",
+                    "answer_2": "className functionName::void()",
+                    "answer_3": "void className.functionName()"
+                },
+                "right_answer": "void className::functionName()"
+            },
+            {
+                "title": "Which operator is used for dynamic memory deallocation in C++?",
+                "answers": {
+                    "answer_0": "delete",
+                    "answer_1": "free",
+                    "answer_2": "release",
+                    "answer_3": "remove"
+                },
+                "right_answer": "delete"
+            },
+            {
+                "title": "How do you access the elements of an array in C++?",
+                "answers": {
+                    "answer_0": "By using a loop construct such as a for loop.",
+                    "answer_1": "By using the array name directly.",
+                    "answer_2": "By using the pointer to the array.",
+                    "answer_3": "By using the index of the element."
+                },
+                "right_answer": "By using the index of the element."
+            },
+            {
+                "title": "What is the purpose of the 'static' keyword when used with a variable in C++?",
+                "answers": {
+                    "answer_0": "To specify that the variable cannot be modified.",
+                    "answer_1": "To allocate memory dynamically for the variable.",
+                    "answer_2": "To share the variable among multiple instances of a class.",
+                    "answer_3": "To declare a variable that is local to a function."
+                },
+                "right_answer": "To share the variable among multiple instances of a class."
+            },
+            {
+                "title": "Which operator is used to access the member variables and functions of an object in C++?",
+                "answers": {
+                    "answer_0": "->",
+                    "answer_1": "::",
+                    "answer_2": ".",
+                    "answer_3": "=>"
+                },
+                "right_answer": "."
+            },
+            {
+                "title": "What is the purpose of the 'try-catch' block in C++?",
+                "answers": {
+                    "answer_0": "To handle exceptions that occur during program execution.",
+                    "answer_1": "To define a block of code that will always execute.",
+                    "answer_2": "To terminate the program when an error occurs.",
+                    "answer_3": "To define a block of code that is executed repeatedly."
+                },
+                "right_answer": "To handle exceptions that occur during program execution."
+            },
+            {
+                "title": "Which container in C++ provides a dynamic array-like behavior with the ability to resize itself automatically?",
+                "answers": {
+                    "answer_0": "Array",
+                    "answer_1": "Vector",
+                    "answer_2": "Set",
+                    "answer_3": "List"
+                },
+                "right_answer": "Vector"
+            },
+            {
+                "title": "How do you pass arguments to a function by reference in C++?",
+                "answers": {
+                    "answer_0": "By using the & symbol before the parameter name in the function declaration.",
+                    "answer_1": "By enclosing the arguments in parentheses when calling the function.",
+                    "answer_2": "By using the * symbol before the argument name when calling the function.",
+                    "answer_3": "By specifying the reference keyword in the function call."
+                },
+                "right_answer": "By using the & symbol before the parameter name in the function declaration."
+            },
+            {
+                "title": "What is the correct way to declare a pure virtual function in C++?",
+                "answers": {
+                    "answer_0": "virtual void functionName() = 0;",
+                    "answer_1": "abstract void functionName();",
+                    "answer_2": "virtual abstract void functionName() = 0;",
+                    "answer_3": "oid functionName() = pure;"
+                },
+                "right_answer": "virtual void functionName() = 0;"
+            },
+            {
+                "title": "Which type of inheritance in C++ allows a class to inherit properties and methods from multiple base classes?",
+                "answers": {
+                    "answer_0": "Single inheritance",
+                    "answer_1": "Multiple inheritance",
+                    "answer_2": "Hierarchical inheritance",
+                    "answer_3": "Multilevel inheritance"
+                },
+                "right_answer": "Multiple inheritance"
+            },
+            {
+                "title": "What is the correct syntax to define a template function in C++?",
+                "answers": {
+                    "answer_0": "template functionName() {}",
+                    "answer_1": "functionName<T>() {}",
+                    "answer_2": "template <typename T> void functionName() {}",
+                    "answer_3": "typename functionName<T>() {}"
+                },
+                "right_answer": "template <typename T> void functionName() {}"
+            },
+            {
+                "title": "How do you access the next element in a linked list in C++?",
+                "answers": {
+                    "answer_0": "By using the arrow (->) operator.",
+                    "answer_1": "By using the dot (.) operator.",
+                    "answer_2": "By using the asterisk (*) operator.",
+                    "answer_3": "By using the percent (%) operator."
+                },
+                "right_answer": "By using the arrow (->) operator."
+            },
+            {
+                "title": "What is the purpose of the 'const' keyword when used with a member function in C++?",
+                "answers": {
+                    "answer_0": "To specify that the function cannot modify the object's data members.",
+                    "answer_1": "To indicate that the function can only be called on const objects.",
+                    "answer_2": "To declare a constant return type for the function.",
+                    "answer_3": "To prevent the function from being overridden in derived classes."
+                },
+                "right_answer": "To specify that the function cannot modify the object's data members."
+            },
+            {
+                "title": "Which header file must be included to use the 'string' class in C++?",
+                "answers": {
+                    "answer_0": "iostream",
+                    "answer_1": "cstring",
+                    "answer_2": "cstdio",
+                    "answer_3": "string"
+                },
+                "right_answer": "string"
+            },
+            {
+                "title": "How do you define a macro in C++?",
+                "answers": {
+                    "answer_0": "#define MACRO_NAME macroValue",
+                    "answer_1": "define MACRO_NAME macroValue",
+                    "answer_2": "macro MACRO_NAME macroValue",
+                    "answer_3": "MACRO_NAME = macroValue"
+                },
+                "right_answer": "#define MACRO_NAME macroValue"
+            },
+            {
+                "title": "What is the purpose of the 'typeid' operator in C++?",
+                "answers": {
+                    "answer_0": "To check the type of an object at runtime.",
+                    "answer_1": "To determine the size of a variable in memory.",
+                    "answer_2": "To perform type casting between different data types.",
+                    "answer_3": " To retrieve the memory address of a variable."
+                },
+                "right_answer": "To check the type of an object at runtime."
+            },
+            {
+                "title": "Which standard C++ library provides functions for performing mathematical operations?",
+                "answers": {
+                    "answer_0": "iostream",
+                    "answer_1": "cstdlib",
+                    "answer_2": "cmath",
+                    "answer_3": "algorithm"
+                },
+                "right_answer": "cmath"
+            },
+            {
+                "title": "What is the purpose of the 'this' pointer in C++?",
+                "answers": {
+                    "answer_0": "To access the current object's data members and member functions.",
+                    "answer_1": "To access the base class' data members and member functions.",
+                    "answer_2": "To access the derived class' data members and member functions.",
+                    "answer_3": "To access the static data members of a class."
+                },
+                "right_answer": "To access the current object's data members and member functions."
+            },
+            {
+                "title": "What is the correct way to include a user-defined header file in C++?",
+                "answers": {
+                    "answer_0": "#include 'headerfile.cpp'",
+                    "answer_1": "#include <headerfile.h>",
+                    "answer_2": "#include 'headerfile'",
+                    "answer_3": "#include <headerfile.cpp>"
+                },
+                "right_answer": "#include 'headerfile.cpp'"
+            },
+            {
+                "title": "How do you check the equality of two strings in C++?",
+                "answers": {
+                    "answer_0": "By using the == operator.",
+                    "answer_1": "By using the equals() function.",
+                    "answer_2": "By using the strcmp() function.",
+                    "answer_3": "By comparing the memory addresses of the strings."
+                },
+                "right_answer": "By using the strcmp() function."
+            },
+            {
+                "title": "What is the purpose of the 'sizeof' operator in C++?",
+                "answers": {
+                    "answer_0": "To determine the size of a variable in bytes.",
+                    "answer_1": "To calculate the square root of a number.",
+                    "answer_2": "To concatenate two strings.",
+                    "answer_3": "To convert a variable to a different data type."
+                },
+                "right_answer": "To convert a variable to a different data type."
+            },
+            {
+                "title": "Which standard C++ library provides functions for manipulating characters and strings?",
+                "answers": {
+                    "answer_0": "iostream",
+                    "answer_1": "cstring",
+                    "answer_2": "cctype",
+                    "answer_3": "string"
+                },
+                "right_answer": "cstring"
+            },
+            {
+                "title": "How do you define a constant pointer in C++?",
+                "answers": {
+                    "answer_0": "const pointerType pointerName;",
+                    "answer_1": "pointerType const pointerName;",
+                    "answer_2": "pointerType pointerName const;",
+                    "answer_3": "const pointerType const pointerName;"
+                },
+                "right_answer": "pointerType const pointerName;"
+            },
+            {
+                "title": "What is the purpose of the 'namespace' keyword in C++?",
+                "answers": {
+                    "answer_0": "To define a new class.",
+                    "answer_1": "To include a header file.",
+                    "answer_2": "To declare a variable.",
+                    "answer_3": "To define a scope for names."
+                },
+                "right_answer": "To define a scope for names."
+            },
+            {
+                "title": "Which header file must be included to use the 'cin' and 'cout' objects in C++?",
+                "answers": {
+                    "answer_0": "iostream",
+                    "answer_1": "cstdlib",
+                    "answer_2": "cstdio",
+                    "answer_3": "iomanip"
+                },
+                "right_answer": "iostream"
+            },
+            {
+                "title": "How do you declare a constant reference to an object in C++?",
+                "answers": {
+                    "answer_0": "const& objectType objectName;",
+                    "answer_1": "&const objectType objectName;",
+                    "answer_2": "objectType const& objectName;",
+                    "answer_3": "const objectType& objectName;"
+                },
+                "right_answer": "const objectType& objectName;"
+            },
+            {
+                "title": "What is the purpose of the 'break' statement in C++?",
+                "answers": {
+                    "answer_0": "To terminate the program.",
+                    "answer_1": "To exit a loop or switch statement.",
+                    "answer_2": "To skip the current iteration of a loop.",
+                    "answer_3": "To pause the execution of the program temporarily."
+                },
+                "right_answer": "To exit a loop or switch statement."
+            },
+            {
+                "title": "How do you define a constant variable in C++?",
+                "answers": {
+                    "answer_0": "const variableType variableName;",
+                    "answer_1": "final variableType variableName;",
+                    "answer_2": "constant variableType variableName;",
+                    "answer_3": "constexpr variableType variableName;"
+                },
+                "right_answer": "const variableType variableName;"
+            },
+            {
+                "title": "What is the correct way to dynamically allocate memory for a single variable in C++?",
+                "answers": {
+                    "answer_0": "new variableType variableName;",
+                    "answer_1": "variableType variableName = new;",
+                    "answer_2": "ariableType* variableName = new variableType;",
+                    "answer_3": "variableType* variableName = new;"
+                },
+                "right_answer": "variableType* variableName = new variableType;"
+            }
+        ],
+
+        "Javascript": [
+
+            {
+                "title": "What is JavaScript primarily used for?",
+                "answers": {
+                    "answer_0": "Server-side programming",
+                    "answer_1": "Database management",
+                    "answer_2": "Styling web pages",
+                    "answer_3": "Client-side scripting"
+                },
+                "right_answer": "Client-side scripting"
+            },
+            {
+                "title": "Which of the following is not a JavaScript data type?",
+                "answers": {
+                    "answer_0": "String",
+                    "answer_1": "Boolean",
+                    "answer_2": "Float",
+                    "answer_3": "Array"
+                },
+                "right_answer": "Float"
+            },
+            {
+                "title": "How do you declare a variable in JavaScript?",
+                "answers": {
+                    "answer_0": "let myVar;",
+                    "answer_1": "myVar = 5;",
+                    "answer_2": "var myVar;",
+                    "answer_3": "const myVar = 10;"
+                },
+                "right_answer": "const myVar = 10;"
+            },
+            {
+                "title": "Which of the following is a JavaScript framework?",
+                "answers": {
+                    "answer_0": "Angular",
+                    "answer_1": "Django",
+                    "answer_2": "Ruby on Rails",
+                    "answer_3": "Laravel"
+                },
+                "right_answer": "Angular"
+            },
+            {
+                "title": "How do you comment a single line in JavaScript?",
+                "answers": {
+                    "answer_0": "// This is a comment",
+                    "answer_1": "<!-- This is a comment -->",
+                    "answer_2": "/* This is a comment */",
+                    "answer_3": "** This is a comment **"
+                },
+                "right_answer": "// This is a comment"
+            },
+            {
+                "title": "Which function is used to display a dialog box with a message?",
+                "answers": {
+                    "answer_0": "alert()",
+                    "answer_1": "prompt()",
+                    "answer_2": "confirm()",
+                    "answer_3": "log()"
+                },
+                "right_answer": "alert()"
+            },
+            {
+                "title": "What is the correct way to call a function named 'myFunction' in JavaScript?",
+                "answers": {
+                    "answer_0": "myFunction;",
+                    "answer_1": "call myFunction();",
+                    "answer_2": "call function myFunction();",
+                    "answer_3": "myFunction();"
+                },
+                "right_answer": "myFunction();"
+            },
+            {
+                "title": "Which operator is used to concatenate strings in JavaScript?",
+                "answers": {
+                    "answer_0": "+",
+                    "answer_1": "-",
+                    "answer_2": "/",
+                    "answer_3": "*"
+                },
+                "right_answer": "+"
+            },
+            {
+                "title": "Which method is used to remove the last element from an array in JavaScript?",
+                "answers": {
+                    "answer_0": "push()",
+                    "answer_1": "shift()",
+                    "answer_2": "unshift()",
+                    "answer_3": "pop()"
+                },
+                "right_answer": "pop()"
+            },
+            {
+                "title": "How do you convert a string to an integer in JavaScript?",
+                "answers": {
+                    "answer_0": "parseInt()",
+                    "answer_1": "toInteger()",
+                    "answer_2": "parseInteger()",
+                    "answer_3": "convertToInteger()"
+                },
+                "right_answer": "parseInt()"
+            },
+            {
+                "title": "What does the 'this' keyword refer to in JavaScript?",
+                "answers": {
+                    "answer_0": "The current HTML document",
+                    "answer_1": "The previous function",
+                    "answer_2": "The global object",
+                    "answer_3": "The current object"
+                },
+                "right_answer": "The current object"
+            },
+            {
+                "title": "Which of the following is a loop structure in JavaScript?",
+                "answers": {
+                    "answer_0": "forin",
+                    "answer_1": "do while",
+                    "answer_2": "repeat until",
+                    "answer_3": "foreach"
+                },
+                "right_answer": "do while"
+            },
+            {
+                "title": "How do you select an HTML element with the id 'myElement' using JavaScript?",
+                "answers": {
+                    "answer_0": "getElementById('myElement')",
+                    "answer_1": "querySelector('#myElement')",
+                    "answer_2": "getElementByName('myElement')",
+                    "answer_3": "querySelector('.myElement')"
+                },
+                "right_answer": "getElementById('myElement')"
+            },
+            {
+                "title": "Which method is used to add an element to the end of an array in JavaScript?",
+                "answers": {
+                    "answer_0": "unshift()",
+                    "answer_1": "push()",
+                    "answer_2": "pop()",
+                    "answer_3": "shift()"
+                },
+                "right_answer": "push()"
+            },
+            {
+                "title": "What is the purpose of the 'return' statement in a JavaScript function?",
+                "answers": {
+                    "answer_0": "It exits the function and returns a value",
+                    "answer_1": "It defines the function",
+                    "answer_2": "It assigns a value to a variable",
+                    "answer_3": "It displays a message to the user"
+                },
+                "right_answer": "It exits the function and returns a value"
+            },
+            {
+                "title": "Which method is used to join the elements of an array into a string in JavaScript?",
+                "answers": {
+                    "answer_0": "join()",
+                    "answer_1": "concat()",
+                    "answer_2": "split()",
+                    "answer_3": "toString()"
+                },
+                "right_answer": "join()"
+            },
+            {
+                "title": "How do you round the number 7.25 to the nearest integer in JavaScript?",
+                "answers": {
+                    "answer_0": "Math.ceil(7.25)",
+                    "answer_1": "Math.floor(7.25)",
+                    "answer_2": "Math.round(7.25)",
+                    "answer_3": "Math.trunc(7.25)"
+                },
+                "right_answer": "Math.round(7.25)"
+            },
+            {
+                "title": "Which of the following is not a valid JavaScript event handler?",
+                "answers": {
+                    "answer_0": "onclick",
+                    "answer_1": "onhover",
+                    "answer_2": "onload",
+                    "answer_3": "onsubmit"
+                },
+                "right_answer": "onhover"
+            },
+            {
+                "title": "How do you check if a variable is an array in JavaScript?",
+                "answers": {
+                    "answer_0": "isArray()",
+                    "answer_1": "is_array()",
+                    "answer_2": "Array.isArray()",
+                    "answer_3": "typeof Array"
+                },
+                "right_answer": "Array.isArray()"
+            },
+            {
+                "title": "What is the purpose of the 'new' keyword in JavaScript?",
+                "answers": {
+                    "answer_0": "It creates a new HTML document",
+                    "answer_1": "It creates a new JavaScript file",
+                    "answer_2": "It creates a new object",
+                    "answer_3": "It creates a new function"
+                },
+                "right_answer": "It creates a new object"
+            },
+            {
+                "title": "Which method is used to remove whitespace from both ends of a string in JavaScript?",
+                "answers": {
+                    "answer_0": "trim()",
+                    "answer_1": "slice()",
+                    "answer_2": "substring()",
+                    "answer_3": "trimLeft()"
+                },
+                "right_answer": "trim()"
+            },
+            {
+                "title": "How do you convert a string to lowercase in JavaScript?",
+                "answers": {
+                    "answer_0": "toLowerCase()",
+                    "answer_1": "lowerCase()",
+                    "answer_2": "convertToLower()",
+                    "answer_3": "changeCase()"
+                },
+                "right_answer": "toLowerCase()"
+            },
+            {
+                "title": "What is the correct way to write a JavaScript array?",
+                "answers": {
+                    "answer_0": "[1, 2, 3, 4]",
+                    "answer_1": "(1, 2, 3, 4)",
+                    "answer_2": "{1, 2, 3, 4}",
+                    "answer_3": "'1, 2, 3, 4'"
+                },
+                "right_answer": "[1, 2, 3, 4]"
+            },
+            {
+                "title": "Which method is used to find the length of a string in JavaScript?",
+                "answers": {
+                    "answer_0": "size()",
+                    "answer_1": "lengthOf()",
+                    "answer_2": "count()",
+                    "answer_3": "length()"
+                },
+                "right_answer": "length()"
+            },
+            {
+                "title": "What is the purpose of the 'typeof' operator in JavaScript?",
+                "answers": {
+                    "answer_0": "It checks if a variable is null",
+                    "answer_1": "It returns the type of a variable",
+                    "answer_2": "It converts a variableto a boolean value",
+                    "answer_3": "It performs a mathematical operation"
+                },
+                "right_answer": "It returns the type of a variable"
+            },
+            {
+                "title": "How do you convert a number to a string in JavaScript?",
+                "answers": {
+                    "answer_0": "numberToString()",
+                    "answer_1": "toString()",
+                    "answer_2": "convertToString()",
+                    "answer_3": "string()"
+                },
+                "right_answer": "toString()"
+            },
+            {
+                "title": "Which method is used to return the square root of a number in JavaScript?",
+                "answers": {
+                    "answer_0": "Math.sqrt()",
+                    "answer_1": "Math.squareRoot()",
+                    "answer_2": "Math.pow()",
+                    "answer_3": "Math.abs()"
+                },
+                "right_answer": "Math.sqrt()"
+            },
+            {
+                "title": "How do you check if a string contains a specific substring in JavaScript?",
+                "answers": {
+                    "answer_0": "contains()",
+                    "answer_1": "includes()",
+                    "answer_2": "indexOf()",
+                    "answer_3": "hasSubstring()"
+                },
+                "right_answer": "includes()"
+            },
+            {
+                "title": "What is the purpose of the 'break' statement in a loop in JavaScript?",
+                "answers": {
+                    "answer_0": "It terminates the loop and continues with the next iteration",
+                    "answer_1": "It exits the loop completely",
+                    "answer_2": "It skips the current iteration and moves to the next one",
+                    "answer_3": "It restarts the loop from the beginning"
+                },
+                "right_answer": "It exits the loop completely"
+            },
+            {
+                "title": "Which method is used to convert a string to an array in JavaScript?",
+                "answers": {
+                    "answer_0": "toArray()",
+                    "answer_1": "split()",
+                    "answer_2": "convertToArray()",
+                    "answer_3": "stringToArray()"
+                },
+                "right_answer": "split()"
+            },
+            {
+                "title": "How do you access the last element of an array in JavaScript?",
+                "answers": {
+                    "answer_0": "last()",
+                    "answer_1": "array.last()",
+                    "answer_2": "array[-1]",
+                    "answer_3": "array[array.length - 1]"
+                },
+                "right_answer": "array[array.length - 1]"
+            },
+            {
+                "title": "What is the purpose of the 'try...catch' statement in JavaScript?",
+                "answers": {
+                    "answer_0": "It defines a block of code that will be executed if an error occurs",
+                    "answer_1": "It defines a function",
+                    "answer_2": "It defines a loop",
+                    "answer_3": "It defines a conditional statement"
+                },
+                "right_answer": "It defines a block of code that will be executed if an error occurs"
+            },
+            {
+                "title": "How do you check if a variable is undefined in JavaScript?",
+                "answers": {
+                    "answer_0": "isUndefined()",
+                    "answer_1": "undefined()",
+                    "answer_2": "typeof variable === 'undefined'",
+                    "answer_3": "checkUndefined()"
+                },
+                "right_answer": "typeof variable === 'undefined'"
+            },
+            {
+                "title": "What is the purpose of the 'continue' statement in a loop in JavaScript?",
+                "answers": {
+                    "answer_0": "It terminates the loop and continues with the next iteration",
+                    "answer_1": "It exits the loop completely",
+                    "answer_2": "It skips the current iteration and moves to the next one",
+                    "answer_3": "It restarts the loop from the beginning"
+                },
+                "right_answer": "It skips the current iteration and moves to the next one"
+            },
+            {
+                "title": "How do you get the current date and time in JavaScript?",
+                "answers": {
+                    "answer_0": "getDateAndTime()",
+                    "answer_1": "currentTime()",
+                    "answer_2": "getDateTime()",
+                    "answer_3": "new Date()"
+                },
+                "right_answer": "new Date()"
+            },
+            {
+                "title": "How do you convert a number to an exponent in JavaScript?",
+                "answers": {
+                    "answer_0": "Math.exponent()",
+                    "answer_1": "toExponent()",
+                    "answer_2": "Math.pow()",
+                    "answer_3": "exponent()"
+                },
+                "right_answer": "Math.pow()"
+            },
+            {
+                "title": "Which method is used to remove an element from an array at a specific index in JavaScript?",
+                "answers": {
+                    "answer_0": "remove()",
+                    "answer_1": "splice()",
+                    "answer_2": "pop()",
+                    "answer_3": "slice()"
+                },
+                "right_answer": "splice()"
+            },
+            {
+                "title": "How do you convert a string to uppercase in JavaScript?",
+                "answers": {
+                    "answer_0": "uppercase()",
+                    "answer_1": "convertToUpperCase()",
+                    "answer_2": "toUpperCase()",
+                    "answer_3": "toUpper()"
+                },
+                "right_answer": "toUpperCase()"
+            }
+        ]
+    }
+]
