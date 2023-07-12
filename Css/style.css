@@ -10,7 +10,7 @@ body {
     transition: all .3s;
 }
 .container {
-    width: 60%;
+    width: 70%;
     margin: 30px auto;
     background-color: #EEEEEE;
     border-radius: 33px;
@@ -171,7 +171,7 @@ hr {
 
 @media (max-width: 576px) {
     .container {
-        width: 60%;
+        width: 70%;
     }
     .logo {
         font-size: 35px;
@@ -226,7 +226,7 @@ hr {
 }
 @media (min-width: 576px) and (max-width: 768px) {
     .container {
-        width: 60%;
+        width: 70%;
     }
     .logo {
         font-size: 35px;
@@ -281,7 +281,7 @@ hr {
 }
 @media (min-width: 768px) and (max-width: 992px) {
     .container {
-        width: 60%;
+        width: 70%;
     }
     .norm_height {
         min-width: 0;
@@ -314,7 +314,7 @@ hr {
 }
 @media (min-width: 992px) and (max-width: 1200px) {
     .container {
-        width: 60%;
+        width: 70%;
     }
     .norm_height {
         min-width: 0;
@@ -347,7 +347,7 @@ hr {
 }
 @media (min-width: 1200px) and (max-width: 3000px) {
     .container {
-        width: 60%;
+        width: 70%;
     }
     .norm_height {
         min-width: 0;
