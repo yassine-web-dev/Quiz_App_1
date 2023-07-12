@@ -73,7 +73,7 @@
                 "right_answer": "To exit a loop or switch statement."
             },
             {
-                "title": "WWhat is the correct way to access the 'length' member function of a string object in C++?",
+                "title": "What is the correct way to access the 'length' member function of a string object in C++?",
                 "answers": {
                     "answer_0": "string.length();",
                     "answer_1": "length.string();",
